@@ -1,0 +1,22 @@
+{
+  "name": "olegsite",
+  "version": "1.0.0",
+  "description": "Practise with \"ElectronJS\"",
+  "main": "olegsite.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oleg-Decik/OlegsSite.git"
+  },
+  "author": "Oleg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleg-Decik/OlegsSite/issues"
+  },
+  "homepage": "https://github.com/Oleg-Decik/OlegsSite#readme",
+  "dependencies": {
+    "electron": "^7.1.2"
+  }
+}
