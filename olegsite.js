@@ -30,6 +30,7 @@ app.on('window-all-closed', () => {
 app.quit();
 })
 
+
 function isLogin () {
   var login = document.getElementsByClassName('login');
   var last = login[login.length -1].value;
@@ -38,4 +39,5 @@ function isLogin () {
   if (login == "Oleg" || password == "olegkrut"){
   alert("This is easy");
 }
+
 };
