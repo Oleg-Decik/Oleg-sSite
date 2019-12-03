@@ -7,6 +7,7 @@ let win;
 
 function createWindow() {
   win = new BrowserWindow({
+      backgroundColor: '#2e2c29',
       width: 700,
       height: 500,
       icon: __dirname + "/img/icon.png"
@@ -30,10 +31,6 @@ app.quit();
 })
 
 function isLogin (button) {
-  let options = {
-    messages: "Hello"
-  }
-  let response = dialog.showMessageBox(options);
-  alert(response);
-  console.log(response);
+  var message = "Hello";
+  alert("message");
 };
