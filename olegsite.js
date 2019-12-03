@@ -7,7 +7,7 @@ let win;
 
 function createWindow() {
   win = new BrowserWindow({
-      backgroundColor: '#7608AA',
+      backgroundColor: '#FF9700',
       width: 700,
       height: 500,
       icon: __dirname + "/img/icon.png"
@@ -30,14 +30,16 @@ app.on('window-all-closed', () => {
 app.quit();
 })
 
-
 function isLogin () {
   var login = document.getElementsByClassName('login');
   var last = login[login.length -1].value;
   var password = document.getElementsByClassName('password');
   var password = password[password.length -1].value;
+  var my_div = element = null;
   if (login == "Oleg" || password == "olegkrut"){
-  alert("This is easy");
+  var element = document.createElement("div");
+  element.innerHTML = "<h1>Привет!</h1>";
+  my_div = document.getElementById("password");
+    document.body.insertBefore(element, my_div);
 }
-
 };

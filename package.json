@@ -4,7 +4,8 @@
   "description": "Practise with \"ElectronJS\"",
   "main": "olegsite.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/Oleg-Decik/OlegsSite#readme",
   "dependencies": {
-    "electron": "^7.1.2"
+    "electron": "^7.1.2",
+    "mocha": "^6.2.2",
+    "spectron": "^9.0.0"
   }
 }
