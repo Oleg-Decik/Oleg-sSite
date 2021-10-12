@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Oleg-Decik/OlegsSite#readme",
   "dependencies": {
-    "electron": "^7.1.2"
+    "electron": "^11.5.0"
   }
 }
